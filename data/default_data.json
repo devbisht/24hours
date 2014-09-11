@@ -1,0 +1,54 @@
+{
+  "datasets" : [
+      {
+        "label": "At Gym",
+        "value" : 0.30,
+        "color": "#13a12a"
+      },
+      {
+        "label": "Social Networking",
+        "value" : 2,
+        "color": "#3ecaf8"
+      },
+      {
+        "label": "With Family",
+        "value" : 1,
+        "color": "#3974cd"
+      },
+      {
+        "label": "With Friends",
+        "value" : 2,
+        "color": "#c428e5"
+      },
+      {
+        "label": "Over Call",
+        "value" : 1,
+        "color": "#f10a82"
+      },
+      {
+        "label": "Working on laptop",
+        "value" : 7,
+        "color": "#ed1a2e"
+      },
+      {
+        "label": "Sleeping",
+        "value" : 6,
+        "color": "#0bd915"
+      }
+  ],
+  "config": [
+    {
+      "fillColor" : "rgba(15,168,218,0.8)",
+      "strokeColor" : "rgba(250,216,55,0.5)",
+      "pointColor" : "rgba(237,26,46,1)",
+      "pointStrokeColor" : "#fff"
+    }
+  ],
+  "options": [
+    {
+      "scaleFontColor" : "#000",
+      "scaleLineColor" : "rgba(121,231,222,0.5)",
+      "scaleGridLineColor" : "rgba(121,231,222,0.5)"
+    }
+  ]
+}

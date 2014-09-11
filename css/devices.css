@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 600px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	.app-container {
+		padding: 0 10px;
+	}
+	.header-inner, .content-wrapper, .footer {
+		width: 100%;
+	}
+	.content-wrapper {
+		min-height: auto;
+	}
+	.form-item input { 
+		margin-bottom: 5px;
+	}
+	.form-wrapper {
+		width: 100%;
+	}
+	.activity-field, .activity-head {
+		width: 100px;
+	}
+}

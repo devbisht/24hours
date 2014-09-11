@@ -1,0 +1,174 @@
+
+body{
+	text-align: center;
+	font-size: 100%;
+}
+.app-container {
+	text-align: left;
+}
+
+a{
+	outline: none;
+	color: #00A9EC;
+	text-decoration: none; 
+}
+
+.header-inner,
+.content-wrapper,
+.footer {
+	width: 900px;
+	margin: auto;
+	position: relative;
+}
+.content-wrapper {
+	margin: 30px auto;
+	min-height: 350px;
+	clear: both;
+	overflow: hidden;
+}
+
+/* common classes */
+.hidden{
+	display: none;
+}
+.chart-canvas {
+	margin: auto;
+}
+
+/* header section */
+.header{
+	box-shadow: 0 -2px 7px 1px;
+	background-color: #FAFAFA;
+  background-image: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
+  background-repeat: repeat-x;
+  padding: 0 20px;
+}
+.header-inner {
+	padding: 1.8em 0 1em;
+}
+.header-inner h1 {
+	 font-size: 4em;
+   text-align: center;
+   text-shadow: 2px 2px 3px #000000;
+}
+.tagline {
+   margin: 10px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #000000;
+}
+
+
+/* footer */
+.footer {
+	border-top: 2px solid #00A9EC;
+  padding: 10px 0;
+}
+
+
+/* homepage dashboard */
+.dashboard-thumnails {
+	
+}
+.dashboard-thumnails li {
+	float: left;
+}
+.dashboard-thumnails li img {
+	display: block;
+}
+
+/* back button */
+.op-links {
+  margin: auto;
+  text-shadow: 1px 1px 1px #999999;
+  width: 40%;
+  overflow: hidden;
+}
+.back-button {
+	  float: left;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.back-button a{
+	color: #00A9EC;
+	display: block;
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.back-button span {
+	background: none repeat scroll 0 0 #fa8405;
+  border-radius: 2px 2px 2px 2px;
+  float: left;
+  margin-right: 5px;
+  padding: 7px;
+}
+.add-data {
+	float: right;
+	 margin-top: 10px;
+}
+
+
+/* chart pages */
+.chart-wrapper {
+	text-align: center;
+}
+
+
+/* form page */
+.form-wrapper {
+	margin: auto;	
+	width: 46%;
+}
+.form-wrapper p {
+	margin-bottom: 15px;
+}
+.form-item {
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 25px;
+}
+.form-item input,
+.form-headers span {
+	  border: 1px solid #00A9EC;
+    display: block;
+    float: left;
+    margin-right: 21px;
+    padding: 5px;
+}
+.form-headers span{
+	border: medium none;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-right: 33px;
+  padding: 0;
+}
+.activity-field,
+.activity-head {
+	width: 200px;
+}
+.time-field,
+.time-head {
+	width: 60px;
+}
+.form-item .color-field,
+.form-headers .color-head {
+	width: 60px;
+	margin-right: 0;
+}
+.add-another {
+	cursor: pointer;
+}
+.form-info {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+.errors {
+	color: #FA3636;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.errors p{
+	 margin-bottom: 6px;
+}

@@ -1,0 +1,20 @@
+<div class="form-wrapper">
+	<form ng-submit="saveData()" class="simple-form">
+		<div class="errors" ng-show="showErrors();">
+			<p>Total time can not be more then 24 hours!</p>
+		</div>
+		<div class="form-headers">
+			<span class="activity-head"> Activity </span>
+			<span class="time-head"> Time </span>
+			<span class="color-head"> Color </span>
+		</div>
+		<div class="form-item" ng-form="formRow" ng-repeat="item in defaultItems">
+			<input type="text" class="text-field activity-field" ng-model="item.label" name="label" title="Name of activity" required/>
+			<input type="text" class="text-field time-field" ng-model="item.value" name="value" required title="eg: 1 for 1 hour, 5 for 5 hours" placeholder="eg: 1 for one hour"/>
+			<input type="text" open-color class="text-field color-field" ng-model="item.color" name="color" required title="eg: #000, black" ng-focus="mytest()"/>
+		</div>
+		<p><a ng-click="addAnother()" class="add-another">+ Add New</a></p>
+		<button type="submit">Save</button> <a href="#">Cancel</a>
+	</form>
+	<div class="form-info"><p>Form data will not be send to server, this will be stored locally on browser (if supported). You can also edit/delete your data after you save it.</p></div>
+</div>

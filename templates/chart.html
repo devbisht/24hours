@@ -1,0 +1,14 @@
+<script type="text/javascript">
+var width = $(window).width();
+if(width <= 600) {
+	var parentWidth = $('#draw-chart').parent().width();
+	$('#draw-chart').attr({
+		width: parentWidth,
+		height: parentWidth,
+	});
+}
+
+</script>
+<div class="chart-wrapper">
+	<canvas id="draw-chart" width="500" height="500"></canvas>
+</div>
